@@ -1,7 +1,7 @@
 from typing import Callable
 
 import torch
-from nnunetv2.utilities.ddp_allgather import AllGatherGrad
+from RSA_deep_working.Metrics.Losses.Skeleton_Recall.nnunetv2.utilities.ddp_allgather import AllGatherGrad
 from torch import nn
 
 
